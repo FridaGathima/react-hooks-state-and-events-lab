@@ -6,7 +6,7 @@ function Item({ name, category }) {
   const [items, setItems] = useState (false)
 
   function handleClick(e){
-    e.preventDefalt()
+    
     setItems(!items)
   }
 
